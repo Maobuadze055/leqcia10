@@ -1,0 +1,193 @@
+.conteiner{
+	padding:20px 0;
+	max-width:1170px;
+	width:100%;
+}
+
+.divbox{
+	width:1170px;
+	margin-left:100px;
+}
+
+.logo{
+	width:100px;
+}
+.flex{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.navigation-ul{
+	display:flex;
+	color:#3D58A6;
+}
+.navigation-li{
+	margin-right:37px;
+	text-transform:uppercase;
+}
+.socialimg{
+	height:25px;
+}
+.social-ul{
+	display:flex;
+}
+.social-li{
+	margin-right:20px;
+
+}
+.social-li:last-child{
+	margin-right:0;
+}
+.social-li::after{
+	content:"";
+	width:2px;
+	height:25px;
+	display:inline-block;
+	background:#3D58A6;
+	margin:0 5px;
+
+}
+.listi::after{
+	display:none;
+}
+.sectionred{
+	background-color:#EE4036;
+	padding:30px 0;
+}
+.contact{
+	color:#fff;
+	text-transform:uppercase;
+	margin-left:100px;
+
+}
+.mapdivi{
+	margin-left:100px;
+}
+.mapdivii iframe{
+	width:100%;
+}
+.mapi{
+	background:#E6E6E6;
+	padding:30px 0;
+
+}
+.colorbox{
+	background:#363E97;
+	padding:40px 0;
+	padding-left:100px;
+	width:1170px;
+
+}
+.adrees{
+	padding-bottom:30px;
+}
+.left{
+	color:#fff;
+	font-size:18px;
+	text-transform:none; 
+	padding-right:100px;
+	margin-top:20px;
+}
+.box2{
+	display:flex;
+}
+.form{
+	display:flex;
+	flex-direction:column;
+}
+.form1{
+	display:flex;
+	flex-direction:column;
+
+}
+.form{
+	padding-bottom:20px; 
+
+}
+.input{
+	width:630px;
+	background:transparent;
+	border:1px solid #fff; 
+	padding:20px 15px; 
+
+}
+.inputsize{
+	width:630px;
+	height:90px;
+
+}
+.right{
+	padding-right:170px;
+
+}
+.label{
+	color:#fff;
+	font-size:18px;
+	text-transform:capitalize;
+	padding-bottom:15px;
+	margin-left:27px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.send{
+	background:#EE4036;
+	color:#fff;
+	font-size:18px;
+	width:130px;
+	padding:10px 30px;
+	margin-top:25px;
+
+}
+.divfooter{
+	background:#E6E6E6;
+	height:80px;
+	width:100%;
+}
+.socialfoto{
+	width:190px;
+	height:20px;
+}
+.social{
+	float:right;
+	margin:35px 80px;
+}
+.fa-google-plus-g{
+	color:#3D58A6;
+	height:30px;
+	width:40px;
+	font-size:20px;
+}
+.fa-facebook-square{
+	color:#3D58A6;
+	height:30px;
+	width:40px;
+	font-size:20px;
+}
+.fa-youtube{
+	color:#3D58A6;
+	height:30px;
+	width:40px;
+	font-size:20px;
+}
+.fa-search{
+	color:#EE4036;
+	height:30px;
+	width:40px;
+	font-size:20px;
+
+}
+.fa-bars{
+	color:#000;
+	height:30px;
+	width:40px;
+	font-size:20px;
+
+}
+@media(max-width:700px){
+	.navigation-ul{
+		display:none;
+	}
+	.fabars{
+		display:block;
+	}
+}
